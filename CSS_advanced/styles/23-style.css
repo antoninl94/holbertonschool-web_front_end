@@ -185,6 +185,18 @@ ul.row {
     color: var(--text-color);
 }
 
+.footer-adress {
+    color: var(--text-color);
+}
+
+.social-link {
+    display: block;
+}
+
+.social-link > svg {
+    fill: var(--text-color);
+}
+
 .row::after {
     content: "";
     display: table;
@@ -200,16 +212,4 @@ ul.row {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-}
-
-.footer-adress {
-    color: var(--text-color);
-}
-
-.social-link {
-    display: block;
-}
-
-.social-link > svg {
-    fill: var(--text-color);
 }
