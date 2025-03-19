@@ -185,8 +185,6 @@ ul.row {
     color: var(--text-color);
 }
 
-
-
 .row::after {
     content: "";
     display: table;
